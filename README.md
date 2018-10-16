@@ -6,7 +6,7 @@ Also see [my blog post](https://erdemkeren.com/blog/category/net/article/nhibern
 
 First, clone the repository:
 
-git clone https://github.com/erdemkeren/nhibernate-demo
+`$ git clone https://github.com/erdemkeren/nhibernate-demo`
 
 Using cli, inside the folder created by the git command `cd nhibernate-demo`, execute the following command:
 
@@ -25,8 +25,8 @@ CREATE TABLE `Customer` (
 
 # Usage
 
-Open `Program.cs` in your favorite editor (I did not include any configuration object or environment file 
-to keep things simple), configure the connection string parameters:
+Open `Program.cs` in your favorite editor (_I did not include any configuration object or environment file 
+to keep things simple_), configure the connection string parameters:
 
 ```csharp
 const string host = "192.168.10.10";
